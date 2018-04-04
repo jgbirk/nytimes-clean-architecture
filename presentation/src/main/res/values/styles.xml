@@ -1,0 +1,45 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:popupMenuStyle">@style/AppTheme.PopupMenu</item>
+        <item name="android:itemTextAppearance">@style/AppTheme.TextAppearance</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.PopupMenu" parent="android:Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance" parent="@android:style/Widget.Holo.Light.TextView">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Bold" parent="@android:style/TextAppearance">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Outlined.Button" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@drawable/outlined_button_text</item>
+        <item name="android:background">@drawable/outlined_button_background</item>
+    </style>
+
+    <style name="Bold.Centered" parent="@style/Bold">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Italic" parent="@android:style/TextAppearance">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+</resources>

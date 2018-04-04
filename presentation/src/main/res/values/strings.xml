@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NYTimes</string>
+    <string name="top_stories">Top Stories</string>
+    <string name="read_more">READ MORE</string>
+    <string name="story_image">Story image</string>
+    <string name="retry">RETRY</string>
+    <string name="story_transition_name" translatable="false">story_image</string>
+</resources>
